@@ -1,0 +1,7 @@
+.App_text_center{
+   text-align: center;
+}
+.flex_box{ 
+    display: flex;
+    justify-content: space-between;
+}
