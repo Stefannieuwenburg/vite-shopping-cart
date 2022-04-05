@@ -1,0 +1,46 @@
+.block_col_1{
+    flex:1; 
+    background-color:rgb(234, 230, 230);
+    padding:1rem;
+    margin:0.5rem;
+     
+}
+.flex_box{ 
+    display: flex;
+    justify-content: space-between;
+}
+.col_2{
+    flex:2; 
+}
+.text_right{
+    text-align: right;
+}
+.col_1_text_right{
+    flex:1;
+    text-align: right;
+}
+.col_2_text_right{
+    flex:2;
+    text-align: right;
+}
+.button{
+    font-size: 0.9rem;
+    font-weight:lighter;
+    font-family:'Poppins';
+    padding: 0.1rem;
+    margin: 0.1rem;
+    border: 0.1rem #000000 transparent;
+    background-color:rgba(200, 250, 126, 0.625);
+    width: 90%;
+    cursor: pointer;
+}
+.button_add{
+    background-color:rgba(14, 14, 254, 0.733);
+    width: 3.0rem;
+    
+}
+.button_remove{
+    background-color:rgba(252, 36, 36, 0.697);
+    width: 3.0rem;
+   
+}

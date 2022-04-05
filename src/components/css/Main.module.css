@@ -4,13 +4,12 @@ Body {
 /* .row */
 .flex_box{ 
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .block{
-    background-color:darkgrey;
     padding:1rem;
     margin:0.5rem;
-    border-radius: 0.5rem; 
+    
 }
 /* .row.center */
 .flex_center{
@@ -18,9 +17,8 @@ Body {
 }
 .block_col_2{
     flex:2; 
-    background-color:darkgrey;
     padding:1rem;
     margin:0.5rem;
-    border-radius: 0.5rem;
+    
 
 }

@@ -1,6 +1,7 @@
 import style from "./css/Header.module.css";
 
 export default function Header(props) {
+    const {countCartItems} = props;
     return (
         <>
             <header className={style.flex_block_center}>
@@ -10,7 +11,17 @@ export default function Header(props) {
                     </a>
                 </div>
                 <div>
-                    <a href="#/Cart">Cart</a> <a href="#/Lognin">Login</a>
+                    <a href="#/Cart">
+                        Cart{" "}
+                        {countCartItems ? (
+                            <button className={style.button_badge}>
+                                {countCartItems}
+                            </button>
+                        ) : (
+                            ""
+                        )}
+                    </a>{" "}
+                    <a href="#/Lognin">Login</a>
                 </div>
             </header>
         </>
